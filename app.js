@@ -63,10 +63,10 @@ function getOrders(){
                     <h2>${result.ital}</h2>
                     <h3>Ár: ${result.ar}</h3>
                     <img src="${result.kep}" alt="">
-                    </div>`
+                    </div>`;
         container.innerHTML = content;
-    })
+    });
 
 }
 
-window.addEventListener("load", getOrders)
+window.addEventListener("load", getOrders);
