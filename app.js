@@ -61,7 +61,7 @@ function getOrders(){
                     <h1>${result.pizza}</h1>
                     <h2>${result.extra}</h2>
                     <h2>${result.ital}</h2>
-                    <h3>Ár: ${result.ar}</h3>
+                    <h3>Ár: ${result.ar} Forint</h3>
                     <img src="${result.kep}" alt="">
                     </div>`;
         container.innerHTML = content;
